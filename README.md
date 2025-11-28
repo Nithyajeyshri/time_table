@@ -166,7 +166,8 @@ Execute the program using runserver command.
 </html>
 ```
 # OUTPUT
-<img width="1912" height="977" alt="nithyatimetable" src="https://github.com/user-attachments/assets/27175d44-5697-4e1f-99c9-a64c157d30a2" />
+![nithyaoutput](https://github.com/user-attachments/assets/05a50adf-9708-475b-b408-2b725fa7b627)
+
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
