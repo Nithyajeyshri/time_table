@@ -24,95 +24,90 @@ Execute the program using runserver command.
 
 # PROGRAM
 ```
-<html>
-    <head>
-        <title>TIMETABLE</title>
-        <link rel="icon" href="ICON.jpeg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME TABLE</title>
+    <link rel="icon" href="logo.jpg">
         <style>
             table,th,td{
-                background-color: rgb(248, 238, 250);
+                background-color: rgb(224, 69, 241);
                 color:black;
-                  background: #ffffffcc;
                 border-collapse:collapse;
                 font-size: medium;
                 font-style: italic;
                 text-align: center;
-                padding:10px ;
                 margin-left: auto;
                 margin-right: auto;
-                border: 2px solid #3e0a46;
-                backdrop-filter: blur(4px);
-                box-shadow: 0 0 10px rgba(0,0,0,0.2);
-                overflow: hidden;
+                border: 2px solid black;
+            }
+            th,td{
+                padding: 10px;
             }
             img{
-                height: 100px;
-                width:600px;
+                height: 150px;
+                width:650px;
                 margin-left: auto;
                 margin-right: auto;
                 display:block;
-                border-radius: 10px;
+                border-radius: 5px;
             
             }
             body{
             
-                background: linear-gradient(rgb(212, 228, 233),rgb(243, 218, 240),rgb(250, 211, 240));
+                background:aqua;
             }
            
             th {
-            background-color: #ffe6fa;
-            color: #0a0a0a;
+            background-color: #2e0437;
+            color: #fda8f5;
             font-weight: bold;
         }
 
         td {
-            background-color: #fdf7ff;
-        }
-
-           .day {
-            font-weight: bold;
-            background-color: #f8e4ff !important;
+            background-color: #fda8f5;
         }
         .vertical-text{
             writing-mode: vertical-rl;
             text-orientation: upright;
             letter-spacing: 10px;
             font-weight: bold;
-            background-color: #f8d3f8;
-           }
-           
-           
-
-            
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+        }
         </style>
-    </head>
-    <body>
-        <img src="logo-1.png" alt="saveetha engineering college logo" style="border: 2px dotted bisque;">
-        <caption><h1 style="text-align:center;color:rgb(15, 14, 15); "><u>TIMETABLE-NITHYA JEYSHRI(25018780)</u></h1></caption>
+</head>
+<body>
+    <img src="SEC.png">
+        <caption><h3 style="text-align:center;color:rgba(61, 12, 12, 0.922); "><u>TIMETABLE-NITHYA JEYSHRI (25018780)</u></h3></caption>
         <table>
             <tr>
               <th>DAY/TIME</th>
-              <th>8am - 10am</th>
-              <th>10am - 12am</th>
-              <th rowspan="7" class="vertical-text"><span>LUNCH</span>
-              </th>
-              <th>1pm - 3pm</th>
-              <th>3pm - 5pm</th>
+              <th>8am to 10am</th>
+              <th>10am to 12am</th>
+              <th>12pm to 1pm</th>
+              <th>1pm to 3pm</th>
+              <th>3pm to 5pm</th>
             </tr>
             <tr>  
-                <td class="day">MONDAY</td>
+                <td>MONDAY</td>
                 <td colspan="2">FREE SLOT</td>
+                <td rowspan="6" class="vertical-text"><span>LUNCH</span></td>
                 <td colspan="2">Python</td>
             </tr>
             <tr>
-                <td class="day">TUESDAY</td>
+                <td>TUESDAY</td>
                 <td rowspan="2">FREE SLOT</td>
                 <td>English</td>
                 <td>FWAD</td>
                 <td rowspan="3">FREE SLOT</td>  
             </tr>
             <tr>
-                <td class="day">WEDNESDAY</td>
+                <td>WEDNESDAY</td>
         
                 <td>FWAD</td>
                 <td>Mentor Meet</td>
@@ -120,202 +115,58 @@ Execute the program using runserver command.
             
             </tr>
             <tr>
-                <td class="day">THURSDAY</td>
+                <td>THURSDAY</td>
                 <td>Python</td>
                 <td>English</td>
                 <TD>English</TD>
                 
             </tr>
             <tr>
-                <td class="day">FRIDAY</td>
+                <td>FRIDAY</td>
                 <td>FREE SLOT</td>
                 <td>FWAD</td>
                 <td>FREE SLOT</td>
                 <td>Python</td>
             </tr>
             <tr>
-                <td class="day">SATURDAY</td>
+                <td>SATURDAY</td>
                 <td colspan="2">FWAD</td>       
                 <td>Python</td>
                 <td>English</td>
                  </tr>
             
         </table>
+        <p>⏱📅</p>
         <DIV ID="ONE">
-        <table style="margin-top: 30px; ">
+        <table style="margin-top: 10px;">
             <tr>
                 <th>S.no</th>
                 <th>Course Name</th>
                 <th>Course Code</th>
             </tr>
             <tr>
-                <td>1</td>
+                <td>1.</td>
                 <td>Python programming</td>
                 <td>19AI301</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>2.</td>
                 <td>Communicative English</td>
                 <td>19EN101</td>
 
             </tr>
             <tr>
-                <td>3</td>
+                <td>3.</td>
                 <td>Fundamentals of Web Application Development</td>
                 <td>19AI414</td>
             </tr>
         </table>
         </DIV>
-        
-    </body>
-</html>
-<html>
-    <head>
-        <title>TIMETABLE</title>
-        <link rel="icon" href="ICON.jpeg">
-        <style>
-            table,th,td{
-                background-color: rgb(248, 238, 250);
-                color:black;
-                  background: #ffffffcc;
-                border-collapse:collapse;
-                font-size: medium;
-                font-style: italic;
-                text-align: center;
-                padding:10px ;
-                margin-left: auto;
-                margin-right: auto;
-                border: 2px solid #3e0a46;
-                backdrop-filter: blur(4px);
-                box-shadow: 0 0 10px rgba(0,0,0,0.2);
-                overflow: hidden;
-            }
-            img{
-                height: 100px;
-                width:600px;
-                margin-left: auto;
-                margin-right: auto;
-                display:block;
-                border-radius: 10px;
-            
-            }
-            body{
-            
-                background: linear-gradient(rgb(212, 228, 233),rgb(243, 218, 240),rgb(250, 211, 240));
-            }
-           
-            th {
-            background-color: #ffe6fa;
-            color: #0a0a0a;
-            font-weight: bold;
-        }
-
-        td {
-            background-color: #fdf7ff;
-        }
-
-           .day {
-            font-weight: bold;
-            background-color: #f8e4ff !important;
-        }
-        .vertical-text{
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            letter-spacing: 10px;
-            font-weight: bold;
-            background-color: #f8d3f8;
-           }
-           
-           
-
-            
-        </style>
-    </head>
-    <body>
-        <img src="logo-1.png" alt="saveetha engineering college logo" style="border: 2px dotted bisque;">
-        <caption><h1 style="text-align:center;color:rgb(15, 14, 15); "><u>TIMETABLE-NITHYA JEYSHRI(25018780)</u></h1></caption>
-        <table>
-            <tr>
-              <th>DAY/TIME</th>
-              <th>8am - 10am</th>
-              <th>10am - 12am</th>
-              <th rowspan="7" class="vertical-text"><span>LUNCH</span>
-              </th>
-              <th>1pm - 3pm</th>
-              <th>3pm - 5pm</th>
-            </tr>
-            <tr>  
-                <td class="day">MONDAY</td>
-                <td colspan="2">FREE SLOT</td>
-                <td colspan="2">Python</td>
-            </tr>
-            <tr>
-                <td class="day">TUESDAY</td>
-                <td rowspan="2">FREE SLOT</td>
-                <td>English</td>
-                <td>FWAD</td>
-                <td rowspan="3">FREE SLOT</td>  
-            </tr>
-            <tr>
-                <td class="day">WEDNESDAY</td>
-        
-                <td>FWAD</td>
-                <td>Mentor Meet</td>
-            
-            
-            </tr>
-            <tr>
-                <td class="day">THURSDAY</td>
-                <td>Python</td>
-                <td>English</td>
-                <TD>English</TD>
-                
-            </tr>
-            <tr>
-                <td class="day">FRIDAY</td>
-                <td>FREE SLOT</td>
-                <td>FWAD</td>
-                <td>FREE SLOT</td>
-                <td>Python</td>
-            </tr>
-            <tr>
-                <td class="day">SATURDAY</td>
-                <td colspan="2">FWAD</td>       
-                <td>Python</td>
-                <td>English</td>
-                 </tr>
-            
-        </table>
-        <DIV ID="ONE">
-        <table style="margin-top: 30px; ">
-            <tr>
-                <th>S.no</th>
-                <th>Course Name</th>
-                <th>Course Code</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Python programming</td>
-                <td>19AI301</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Communicative English</td>
-                <td>19EN101</td>
-
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Fundamentals of Web Application Development</td>
-                <td>19AI414</td>
-            </tr>
-        </table>
-        </DIV>
-        
-    </body>
+</body>
 </html>
 ```
 # OUTPUT
-![alt text](<Screenshot (74).png>)
+<img width="1912" height="977" alt="nithyatimetable" src="https://github.com/user-attachments/assets/27175d44-5697-4e1f-99c9-a64c157d30a2" />
+
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
